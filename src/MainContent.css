@@ -1,0 +1,56 @@
+.zoremmail-layout-content-container {
+    width: 100%;
+    display: flex;
+}
+
+.zoremmail-layout-content-preview {
+    height: auto;
+    min-height: 100vh;
+    background: #fff;
+    border-right: 1px solid #e0e0e0;
+    width: calc(100% - 0px);
+    display: inline-block;
+}
+
+.zoremmail-preview-content {
+    overflow: auto;
+    height: 100vh;
+}
+
+.zoremmail-layout-content-preview.customizer-unloading #overlay {
+    position: fixed;
+    top: 0;
+    left: 346px;
+    right: 0;
+    bottom: 0;
+    background-color: #f0f0f1;
+    z-index: 2;
+    cursor: default;
+    background: url('../assets/loader.svg') 50% 50% no-repeat rgba(240, 240, 241, 0.5);
+    background-size: 50px;
+}
+
+/* Main Header CSS */
+.zoremmail-layout-content-header .zoremmail-menu.zoremmail-menu-inline {
+    display: inline-block;
+    border: none !important;
+    margin: 0;
+    padding: 0;
+}
+
+.zoremmail-layout-content-header {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.zoremmail-layout-content-header .zoremmail-menu-item {
+    line-height: 34px;
+    margin: 10px 15px;
+}
+
+.zoremmail-layout-content-header .zoremmail-menu-item select {
+    min-width: 300px;
+}
+
+.zoremmail-layout-content-header .zoremmail-menu.zoremmail-menu-inline.align-right {
+    float: right;
+}

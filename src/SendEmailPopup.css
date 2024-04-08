@@ -1,0 +1,136 @@
+.popupwrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fafafadb;
+    border: 1px solid #e0e0e0;
+    z-index: 100000;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 0;
+}
+
+.popupwrapper:after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.popuprow {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 500px;
+    background: #fff;
+    position: relative;
+    z-index: 10;
+    border-radius: 5px;
+    width: 97%;
+    width: calc(100% - 5px);
+    max-height: 90%;
+    overflow-y: overlay;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+.popuprow h3 {
+    background: #f6f6f7;
+    margin: 0;
+    line-height: 50px;
+    padding: 0 10px;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.popuprow .popup_close_icon {
+    color: #616161 !important;
+    width: 36px;
+    height: 36px;
+    font-size: 28px !important;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    cursor: pointer;
+    line-height: 10px;
+}
+
+.popup_close_icon {
+    float: right;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+form#send_to_email_options {
+    padding: 20px;
+}
+
+#send_to_email_options label {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 2;
+}
+
+#send_to_email {
+    line-height: 33px;
+    width: 100%;
+}
+
+#send_to_email_options .send-test-email {
+    background: #09d3ac;
+    border-color: #09d3ac;
+    box-shadow: none;
+}
+
+#send_to_email_options .send-test-email:focus,
+#send_to_email_options .send-test-email:hover {
+    background: #06af8d;
+    border-color: #06af8d;
+    box-shadow: none;
+}
+
+#send_to_email_options .send-test-email {
+    font-size: 14px;
+    line-height: 16px;
+    margin: 15px 0 0;
+    width: 70px;
+}
+
+.popupclose {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    top: 0;
+    left: 0;
+}
+
+#send_to_email_options .notice_message {
+    color: #f44336;
+    font-size: 12px;
+    display: block;
+}
+
+.popuprow p {
+    text-align: center;
+    padding: 40px 10px 15px;
+}
+
+.popuprow .dashicons-yes-alt {
+    color: #59c889;
+    font-size: 40px;
+}
+
+.popuprow .dashicons-dismiss {
+    color: #f44336;
+    font-size: 40px;
+}
+
+.popuprow .confirm_message {
+    color: #000;
+    font-size: 14px;
+    text-align: center;
+    padding: 15px 15px 40px;
+    margin: 0;
+}

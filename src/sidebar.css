@@ -1,0 +1,762 @@
+/*Header CSS*/
+aside.zoremmail-layout-slider-header {
+    border-bottom: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    width: calc(100% - 0px);
+    position: absolute;
+    top: 0;
+}
+
+.wordpress-to-back {
+    position: absolute;
+    top: 0;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 30px;
+    padding: 0.64em 0.61em;
+    text-align: left;
+    border: 0;
+    border-right: 1px solid #e0e0e0;
+    border-top: 4px solid #f0f0f0;
+    border-bottom: 1px solid #e0e0e0;
+    cursor: pointer;
+}
+
+.wordpress-to-back:hover {
+    border-top: 4px solid #09d3ac;
+}
+
+a.zoremmail-back-wordpress-link {
+    text-decoration: none !important;
+    box-shadow: none;
+    color: #23282d;
+    font-size: 18px;
+}
+
+.wordpress-to-back:hover a.zoremmail-back-wordpress-link {
+    color: #09d3ac;
+}
+
+.zoremmail-back-wordpress-title.dashicons {
+    font-size: 28px;
+    font-weight: 400;
+    margin-right: 7px;
+    line-height: 30px;
+}
+
+.wp-core-ui .efc-btn.efc-save {
+    background: #09d3ac;
+    border-color: #09d3ac;
+    box-shadow: none;
+}
+
+.wp-core-ui .efc-btn.efc-save:focus,
+.wp-core-ui .efc-btn.efc-save:hover {
+    background: #06af8d;
+    border-color: #06af8d;
+    box-shadow: none;
+}
+
+.wp-core-ui .efc-btn.efc-save {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 13px;
+    width: 70px;
+    float: right;
+}
+
+/*Header CSS end*/
+
+/*************************************************/
+
+/*Panels CSS*/
+aside.zoremmail-layout-slider-content {
+    position: absolute;
+    top: 57px;
+    bottom: 46px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+    background: #f0f0f1;
+    border-right: 1px solid #dcdcde;
+    padding-bottom: 1em;
+}
+
+aside.zoremmail-layout-slider-content ul {
+    margin: 0;
+}
+
+.zoremmail-menu-contain .hide {
+    display: none !important;
+}
+
+.customize-section-title {
+    background: #fff;
+}
+
+.zoremmail-menu-submenu-title {
+    margin: 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.customize-section-title h3 {
+    font-size: 20px;
+    font-weight: 200;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding: 10px 10px 12px 14px;
+    margin: 0;
+    line-height: 25px;
+    color: #50575e;
+}
+
+.customize-section-title span.customize-action {
+    font-size: 13px;
+    display: block;
+    font-weight: 400;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.customize-section-title+li,
+.zoremmail-sub-panel-heading+li {
+    border-top: 1px solid #e0e0e0;
+}
+
+.zoremmail-panel-title,
+.zoremmail-sub-panel-title,
+.zoremmail-panel-title.back {
+    border-left: none;
+    border-right: none;
+    padding: 10px 10px 11px 14px;
+    line-height: 1.8;
+    margin-bottom: 0;
+    position: relative;
+    background: #fff;
+    color: #50575e;
+    background-color: #fff;
+    border-bottom: 1px solid #dcdcde;
+    border-left: 4px solid #fff;
+    transition: .15s color ease-in-out, .15s background-color ease-in-out, .15s border-color ease-in-out;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.zoremmail-panel-title:hover,
+.zoremmail-sub-panel-title:hover {
+    background: #f6f7f7;
+    border-left: 4px solid #09d3ac;
+}
+
+.zoremmail-panel-title:hover .dashicons,
+.zoremmail-sub-panel-title:hover .dashicons {
+    color: #09d3ac;
+}
+
+.zoremmail-panel-title .dashicons,
+.zoremmail-sub-panel-title .dashicons {
+    position: absolute;
+    top: 30%;
+    right: 20px;
+    width: 10px;
+    font-weight: 700;
+}
+
+.customize-section-back {
+    display: block;
+    float: left;
+    width: 48px;
+    height: 71px;
+    padding: 0 24px 0 0;
+    margin: 0;
+    background: #fff;
+    border: none;
+    border-right: 1px solid #e0e0e0;
+    border-left: 4px solid #fff;
+    box-shadow: none;
+    cursor: pointer;
+    transition: color .15s ease-in-out, border-color .15s ease-in-out, background .15s ease-in-out;
+}
+
+.customize-section-back:before {
+    font: normal 20px/72px dashicons;
+    content: "\f341";
+    position: relative;
+    left: 9px;
+}
+
+.customize-section-back:focus,
+.customize-section-back:hover {
+    color: #fff;
+    background: #09d3ac;
+    border-left: 4px solid #09d3ac;
+    box-shadow: none;
+    outline: 2px solid transparent;
+    outline-offset: -2px;
+}
+
+.zoremmail-menu.zoremmail-menu-inline {
+    margin: 10px 12px 0 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #e0e0e0;
+    position: relative;
+}
+
+.menu-sub-title {
+    display: block;
+    font-size: 14px;
+    line-height: 1.75;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.options-title-divider {
+    background-color: #3d4c5a;
+    color: #fff;
+    font-size: 120%;
+    font-weight: bolder;
+    margin: 0;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 0;
+    padding: 8px 25px;
+    border-top: 2px solid #23282d;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 20%);
+    line-height: 25px;
+}
+
+.menu-sub-field .zoremmail-input,
+.menu-sub-field .select2-container {
+    width: 100%;
+    min-height: 35px;
+    border-color: #e0e0e0;
+}
+
+/*.menu-sub-field .button {
+    width: 100%;
+    background: #077ff1;
+    color: #ffffff;
+    line-height: 35px;
+}*/
+
+/* tagsInput CSS */
+.rti--container {
+    padding: 0 !important;
+    border-radius: 3px !important;
+    border-color: #e0e0e0 !important;
+}
+
+.rti--tag {
+    margin: .5rem 0 0 .5rem;
+}
+
+input.rti--input {
+    border: none;
+    width: 100%;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+/*end tagsInput CSS*/
+
+.menu-sub-tooltip {
+    font-size: 12px;
+    color: #424242;
+    display: block;
+    margin-top: 5px;
+}
+
+.menu-sub-codeinfo.codeinfo code {
+    padding: 10px;
+    display: block;
+    background: #fff;
+    color: #505050;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    user-select: text;
+}
+
+.zoremmail-menu-item .checkbox .menu-sub-title,
+.zoremmail-menu-item .tgl-btn .menu-sub-title {
+    /*line-height: 2;*/
+    display: block;
+    padding-top: 5px;
+}
+
+.zoremmail-menu-sub.half {
+    display: inline-flex;
+    width: 44%;
+    float: none;
+    padding-top: 0 !important;
+    margin: 10px 0 0 12px;
+}
+
+.zoremmail-menu-sub.half .zoremmail-menu-item {
+    width: 100%;
+}
+
+.zoremmail-menu-sub.daily-overnight.title {
+    border: 0;
+    padding: 0;
+}
+
+.todo_layout .addBtn {
+    line-height: 35px;
+    border: 1px solid #4e9f3d;
+    padding: 6px 15px;
+    border-radius: 3px;
+    margin: 0 0 0 5px;
+    color: #4e9f3d;
+    cursor: pointer;
+}
+
+.todo_layout #return_reasons {
+    line-height: 35px;
+    min-width: 241px;
+    border-color: #e0e0e0;
+}
+
+#todo-list li .reason_text {
+    color: #333;
+    border-bottom: 1px dotted #333;
+    width: max-content;
+    min-width: auto;
+    line-height: 2;
+}
+
+#todo-list li .dashicons {
+    line-height: 1.4;
+    margin: 0 5px;
+    color: #333;
+    display: none;
+}
+
+#todo-list li:hover .dashicons-trash {
+    display: inline-block;
+}
+
+#todo-list li .dashicons-trash:before {
+    color: #333;
+    cursor: pointer;
+}
+
+#todo-list {
+    margin-top: 15px;
+}
+
+/*color*/
+.color_block {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-right: 1px solid #e0e0e0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.color_main {
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    max-width: 110px;
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    line-height: 30px;
+}
+
+/*color end*/
+
+/*range*/
+input.zoremmail-range {
+    -webkit-appearance: none;
+    width: calc(100% - (60px));
+    height: 8px;
+    border-radius: 5px;
+    background: #e0e0e0;
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+
+input.zoremmail-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 16px;
+    height: 16px;
+    background-color: #077ff1;
+    border-radius: 50%;
+}
+
+/*range end*/
+
+/*Media*/
+.media .placeholder {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    border: 1px dashed #c3c4c7;
+    box-sizing: border-box;
+    padding: 9px 0;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.media .selected-media {
+    margin: 10px 0;
+    width: 100%;
+}
+
+.media .remove-media {
+    margin-right: 5px;
+}
+
+/*Media end*/
+
+/*dashicon*/
+.dashicons-menu.options-sort {
+    font-size: x-large;
+    cursor: move;
+}
+
+/*dashicon end*/
+/*radio*/
+.radio-button-label {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.radio-button-label>input {
+    display: none;
+}
+
+.radio-button-label span {
+    font-weight: 500;
+    border: 1px solid #e0e0e0;
+    background-color: #eee;
+    padding: 8px 0;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.radio-button-label>input:checked+span {
+    background-color: #3c4758;
+    border: 1px solid #3c4758;
+    color: #fff;
+}
+
+/*radio end*/
+
+/*PRO label*/
+a.pro {
+    float: right;
+    background: #09d3ac;
+    padding: 0 5px;
+    border-radius: 3px;
+    font-weight: normal;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: none;
+}
+
+.proLabel {
+    position: absolute;
+    right: 0;
+    top: 7px;
+    z-index: 1;
+}
+
+/*PRO label end*/
+
+/*Panels CSS end*/
+
+/************************************************/
+
+/*Footer CSS*/
+aside.zoremmail-layout-content-collapse {
+    position: absolute;
+    bottom: 0;
+    height: 46px;
+    background: #fff;
+    width: calc(100% - 0px);
+    border-top: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+}
+
+button.send-to-email,
+aside.zoremmail-layout-content-media .dashicons.dashicons-desktop,
+aside.zoremmail-layout-content-media .dashicons:focus,
+aside.zoremmail-layout-content-media .dashicons:hover {
+    color: #23282d;
+}
+
+button.send-to-email {
+    border: 0;
+    background: none;
+    line-height: 45px;
+    padding: 0 10px 0 40px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.send-to-email:before {
+    content: '';
+    display: block;
+    height: 46px;
+    width: 22px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: url(../assets/send-email.png) no-repeat 0px 0px;
+    background-size: contain;
+}
+
+.zoremmail-layout-content-media {
+    float: right;
+}
+
+.zoremmail-layout-content-media .dashicons {
+    color: #bdbdbd;
+    width: 35px;
+    height: 45px;
+    line-height: 45px;
+    cursor: pointer;
+    padding: 0 3px;
+    margin: 0;
+    box-shadow: none;
+    border-top: 1px solid transparent;
+    border-bottom: 4px solid transparent;
+    transition: .15s color ease-in-out, .15s background-color ease-in-out, .15s border-color ease-in-out;
+}
+
+/*Footer CSS end*/
+
+
+/*** Snackbar css START ***/
+/* Animations to bouncein the snackbar in and out */
+@-webkit-keyframes bouncein {
+    from {
+        right: 0;
+        opacity: 0;
+    }
+
+    to {
+        right: 20px;
+        opacity: 1;
+    }
+}
+
+@keyframes bouncein {
+    from {
+        right: 0;
+        opacity: 0;
+    }
+
+    to {
+        right: 20px;
+        opacity: 1;
+    }
+}
+
+.snackbar-logs {
+    position: fixed;
+    z-index: 999999;
+    top: 10px;
+    right: 20px;
+    width: 300px;
+}
+
+.snackbar-log {
+    -webkit-animation: bouncein 0.5s;
+    animation: bouncein 0.5s;
+}
+
+.snackbar-log {
+    display: block;
+    margin-top: 10px;
+    position: relative;
+    right: -300px;
+    opacity: 0;
+}
+
+.snackbar-log-show {
+    right: 0;
+    opacity: 1;
+}
+
+.snackbar-log {
+    background: #1F1F1F;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 15px;
+    border-radius: 4px;
+    color: #FFF;
+}
+
+.snackbar-log-success {
+    background: #23282d;
+}
+
+.snackbar-log-error {
+    background: #ed1c24;
+}
+
+/*** Snackbar css END ***/
+
+/* Toggle CSS */
+input[type=checkbox].tgl {
+    display: none;
+}
+
+.tgl,
+.tgl:after,
+.tgl:before,
+.tgl *,
+.tgl *:after,
+.tgl *:before,
+.tgl+.tgl-btn {
+    box-sizing: border-box;
+}
+
+.tgl::-moz-selection,
+.tgl:after::-moz-selection,
+.tgl:before::-moz-selection,
+.tgl *::-moz-selection,
+.tgl *:after::-moz-selection,
+.tgl *:before::-moz-selection,
+.tgl+.tgl-btn::-moz-selection {
+    background: none;
+}
+
+.tgl::selection,
+.tgl:after::selection,
+.tgl:before::selection,
+.tgl *::selection,
+.tgl *:after::selection,
+.tgl *:before::selection,
+.tgl+.tgl-btn::selection {
+    background: none;
+}
+
+.tgl+.tgl-btn {
+    outline: 0;
+    display: inline-block;
+    width: 36px;
+    height: 18px;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.tgl+.tgl-btn:after,
+.tgl+.tgl-btn:before {
+    position: relative;
+    display: block;
+    content: "";
+    width: 40%;
+    height: 100%;
+}
+
+.tgl+.tgl-btn:after {
+    left: 0;
+}
+
+.tgl+.tgl-btn:before {
+    display: none;
+}
+
+.tgl:checked+.tgl-btn:after {
+    left: 50%;
+}
+
+.tgl-flat+.tgl-btn {
+    padding: 2px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    background: rgba(0, 0, 0, 0.26);
+    border: 1px solid #ccc;
+    border-radius: 2em;
+}
+
+.tgl-flat+.tgl-btn:after {
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+    background: #f2f2f2;
+    content: "";
+    border-radius: 1em;
+}
+
+.tgl-flat:checked+.tgl-btn {
+    border: 1px solid #ccc;
+    background: #ffff;
+    vertical-align: middle;
+}
+
+.tgl-flat:checked+.tgl-btn:after {
+    left: 55%;
+    background: #09d3ac;
+}
+
+.rtl .tgl-flat:checked+.tgl-btn:after {
+    right: 55%;
+}
+
+.rtl .tgl+.tgl-btn:after {
+    right: 0;
+}
+
+/*Toggle Css end*/
+
+.wp-core-ui .send-test-email[disabled],
+.wp-core-ui .send-test-email:focus[disabled],
+.wp-core-ui .send-test-email:hover[disabled],
+.wp-core-ui .efc-btn.efc-save[disabled],
+.wp-core-ui .efc-btn.efc-save[disabled]:focus,
+.wp-core-ui .efc-btn.efc-save[disabled]:hover {
+    color: #a7aaad !important;
+    background: #f6f7f7 !important;
+    border-color: #dcdcde !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    cursor: default;
+}
+
+/**
+ * ==============================================
+ * Dot Carousel
+ * ==============================================
+ */
+.dot-carousel {
+    position: relative;
+    left: -9980px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #fff;
+    box-shadow: 9984px 0 0 0 #fff, 9999px 0 0 0 #fff, 10014px 0 0 0 #fff;
+    animation: dotCarousel 1.5s infinite linear;
+}
+
+@keyframes dotCarousel {
+    0% {
+        box-shadow: 9984px 0 0 -1px #fff, 9999px 0 0 1px #fff, 10014px 0 0 -1px #fff;
+    }
+
+    50% {
+        box-shadow: 10014px 0 0 -1px #fff, 9984px 0 0 -1px #fff, 9999px 0 0 1px #fff;
+    }
+
+    100% {
+        box-shadow: 9999px 0 0 1px #fff, 10014px 0 0 -1px #fff, 9984px 0 0 -1px #fff;
+    }
+}
+
+/*end Dot carousel */

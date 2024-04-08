@@ -1,0 +1,53 @@
+#wpcontent,
+#wpbody-content,
+.wp-toolbar {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#adminmenuback,
+#adminmenuwrap,
+#wpadminbar,
+#wpfooter,
+.notice,
+div.error,
+div.updated,
+#query-monitor-main {
+    display: none !important;
+}
+
+.zoremmail-layout.zoremmail-layout-has-sider {
+    position: fixed;
+    overflow: visible;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    min-width: 0;
+    margin-left: 346px;
+    transition-property: left, right, top, bottom, width, margin;
+    transition-duration: .3s;
+}
+
+.zoremmail-layout-sider {
+    color: #50575e;
+    background: #f0f0f1;
+    min-height: 100vh;
+    position: fixed;
+    width: 18%;
+    left: 0;
+    min-width: 346px;
+    max-width: 600px;
+    transition-property: left, right, top, bottom, width, margin, display;
+    transition-duration: .3s;
+}
+
+/*toastify css*/
+.Toastify__progress-bar--success {
+    background-color: #09d3ac !important;
+}
+
+.Toastify__toast--success .Toastify__toast-icon.Toastify--animate-icon.Toastify__zoom-enter svg {
+    fill: #09d3ac;
+}
